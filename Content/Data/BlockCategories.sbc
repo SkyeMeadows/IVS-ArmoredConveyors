@@ -1,0 +1,38 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CategoryClasses>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>Armored Conveyors</DisplayName>
+			<Name>IVS_ArmoredConveyors</Name>
+			<SearchBlocks>true</SearchBlocks>
+			<IsToolCategory>false</IsToolCategory>
+			<ItemIds>
+				<string>Conveyor/IVS_StraightArmored</string>
+				<string>Conveyor/IVS_CornerArmored</string>
+				<string>Conveyor/IVS_TJunctionArmored</string>
+				<string>Conveyor/IVS_XJunctionArmored</string>
+				<string>Conveyor/IVS_Corner3WayArmored</string>
+				<string>Conveyor/IVS_4WayElbowArmored</string>
+				<string>Conveyor/IVS_5WayJunctionArmored</string>
+				<string>Conveyor/IVS_45SlopeArmored</string>
+				<string>Conveyor/IVS_2x1BaseArmored</string>
+				<string>Conveyor/IVS_2x1TipArmored</string>
+				<string>Conveyor/IVS_StraightArmoredHeavy</string>
+				<string>Conveyor/IVS_CornerArmoredHeavy</string>
+				<string>Conveyor/IVS_TJunctionArmoredHeavy</string>
+				<string>Conveyor/IVS_XJunctionArmoredHeavy</string>
+				<string>Conveyor/IVS_Corner3WayArmoredHeavy</string>
+				<string>Conveyor/IVS_4WayElbowArmoredHeavy</string>
+				<string>Conveyor/IVS_5WayJunctionArmoredHeavy</string>
+				<string>Conveyor/IVS_45SlopeArmoredHeavy</string>
+				<string>Conveyor/IVS_2x1BaseArmoredHeavy</string>
+				<string>Conveyor/IVS_2x1TipArmoredHeavy</string>
+			</ItemIds>
+		</Category>
+
+    </CategoryClasses>
+</Definitions>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightArmorConveyors" />
+            <Icon>Textures\GUI\Icons\Cubes\StraightArmored.dds</Icon>
+            <DisplayName>Light Armored Conveyors</DisplayName>
+			<Description>Conveyor inside of a light armor block, useful for more asthetic designs while retaining functionality</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_StraightArmored" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_CornerArmored" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_TJunctionArmored" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_XJunctionArmored" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_Corner3WayArmored" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_4WayElbowArmored" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_5WayJunctionArmored" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_45SlopeArmored" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_2x1BaseArmored" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_2x1TipArmored" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeavyArmorConveyors" />
+            <Icon>Textures\GUI\Icons\Cubes\StraightArmoredHeavy.dds</Icon>
+            <DisplayName>Heavy Armored Conveyors</DisplayName>
+			<Description>Conveyor inside of a heavy armor block, useful for more asthetic designs while retaining functionality</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_StraightArmoredHeavy" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_CornerArmoredHeavy" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_TJunctionArmoredHeavy" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_XJunctionArmoredHeavy" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_Corner3WayArmoredHeavy" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_4WayElbowArmoredHeavy" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_5WayJunctionArmoredHeavy" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_45SlopeArmoredHeavy" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_2x1BaseArmoredHeavy" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="IVS_2x1TipArmoredHeavy" />
+            </Blocks>
+        </BlockVariantGroup>
+
+    </BlockVariantGroups>
+</Definitions>
